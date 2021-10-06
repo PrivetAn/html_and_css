@@ -1,0 +1,62 @@
+.railway{
+    max-width: 350px;
+    padding: 20px;
+    background: #faab1b;
+    font-family: "Oswald", sans-serif;
+}
+
+.railway h3{
+    padding: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #faab1b;
+    background: #291810;
+}
+
+.form-group{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #291810;
+}
+
+.form-group input, .form-group label, .form-group textarea{
+    display: block;
+    width: 100%;
+}
+
+.form-group input{
+    padding: 0;
+    line-height: 30px;
+    width: 100%;
+    background: #faab1b;
+    border-width: 1px;
+}
+
+.form-group label{
+    margin-bottom: 5px;
+    color: #faab1b;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.submit-block{
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit-button{
+    background: #faab1b;
+}
+
+.submit-button input{
+    padding: 15px;
+    background: #faab1b;
+    border: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
