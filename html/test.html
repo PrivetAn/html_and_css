@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>ТЕСТ</title>
+</head>
+<body bgcolor="#e3e5f8">
+
+<h1 style="font-family:verdana;"><p align="center" >Тест "Какая ты еда?"</h1></p>
+<p>Какой твой любимый цвет?</p>
+<p><input name="color" type="radio" value="red"> Красный</p>
+    <p><input name="color" type="radio" value="green"> Зеленый</p>
+    <p><input name="color" type="radio" value="blue" checked> Синий</p>
+<br>
+<p>Кто круче?</p>
+<p><input name="an" type="radio" value="zh"> :Жираф</p>
+    <p><input name="an" type="radio" value="pi"> Мышь</p>
+    <p><input name="an" type="radio" value="tar" checked> Тарантул</p>
+<br>
+<p>Как долго ты спишь?</p>
+<p><input name="s" type="radio" value="8"> :7-9 часов</p>
+    <p><input name="s" type="radio" value="5"> Меньше 7</p>
+    <p><input name="s" type="radio" value="14" checked> Больше 9</p>
+<br>
+<p>Где?</p>
+<p><input name="tt" type="checkbox" value="ss"> :Сидит</p>
+    <p><input name="tt" type="checkbox" value="ff"> Фазан</p>
+    <p><input name="tt" type="checkbox" value="ab" checked> А и Б</p>
+<br>
+<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+  <label for="flying">Как сильно любишь есть?</label>
+  <input name="flevel" id="flying" type="range" min="0" max="100" value="0"> 
+  <output for="flying" name="level">0</output>/100
+</form>
+<br>
+<br>
+<table border="1px" bordercolor="red">
+<tr><th>КТО</th><th>Что делать?</th></tr>
+<tr><td>Евгения</td><td>Умеет вставлять таблицы</td></tr> 
+</table>
+
+
+<p><a href="result.html"><input type="submit" value="Результат"></a></p>
+</body>
+</html>

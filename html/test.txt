@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>Салат</title>
+</head>
+<body bgcolor="#e3e5f8">
+
+<h1 style="font-family:verdana;"><p align="center" >Тест "Какая ты еда?"</h1></p>
+<p>Какой твой любимый цвет?</p>
+<p><input name="red" type="radio" value="red"> Красный</p>
+    <p><input name="green" type="radio" value="green"> Зеленый</p>
+    <p><input name="blue" type="radio" value="blue" checked> Синий</p>
+    <p><input type="submit" value="Дальше"></p>
+
+
+
+</body>
+</html>

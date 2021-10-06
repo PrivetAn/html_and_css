@@ -1,0 +1,7 @@
+<html>
+<head><title>Результат теста<title></head>
+<body>
+<i><h1 align="center" color="red">ТЫ СЛАДКИЙ ПИРОЖОК</h1><i>
+<img src="pirozhok.png">
+</body>
+</html>

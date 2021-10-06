@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Кулинария</title>
+</head>
+<body bgcolor="#b2f2ff" text="#0000FF">
+<h1 style="font-family:verdana;"><p align="center" >САЛАТИКИ</h1></p>
+<marquee direction="right" scrollamount="10">
+<img src="romashka.jpg"/>
+<img src="belochka.jpg" />
+<img src="Ejik (1).jpg"/>
+<img src="podsodnuh.jpg"/>
+</marquee>
+</body>
+</html>

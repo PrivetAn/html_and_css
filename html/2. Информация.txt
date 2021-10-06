@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<address>
+<body bgcolor="#b2f2ff" text="#0000FF">
+
+<a href="mailto:us@example.org">Напишите нам</a><br/>
+Адрес: Почтовый ящик 123, Томск<br />
+Телефон: +12 34 56 78
+</address>
+
+</body>
+</html>

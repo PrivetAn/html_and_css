@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Ôאיכ menu.html - לום‏ סאיעא</title>
+</head>
+<body bgcolor="#b2bbff" text="#112cf5" LINK="#FF8C00" VLINK=green>
+	 <ul>
+		<h1><I><b><li><a target="main" href="ejik.html">"¨ÆÈÊ"</a></li></b></I></h1>
+		<h1><b><I><li><a target="main" href="ananas.html">"ÀÍÀÍÀÑ"</a></li></b></I></h1>
+		<h1><li><a target="main" href="about-autor.html">"ÈÇÓÌÐÓÄÍÛÉ"</a></li></h1>
+		<h1><li>...</li>
+	</ul>
+</body>
+</html>
