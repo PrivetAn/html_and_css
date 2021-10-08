@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%),linear-gradient(-45deg,rgba(0, 0, 0, 0) 48%,rgba(0, 0, 0, 0.2) 50%,rgba(0, 0, 0, 0) 52%);
+    background-size: 0.5em 0.5em;
+    background-color: rgb(245,247,249);
+  }
+
+.first-list {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    font: 14px;
+    padding-left: 3px;
+  }
+
+.first-list  > li {
+    counter-increment: my-awesome-counter;
+    margin: 0.5rem;
+    background: rgb(222,211,203);
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    right: 20px;
+  }
+
+.first-list > li::before {
+    content: counter(my-awesome-counter);
+    background: rgb(100,213,194);
+    width: 30px;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    line-height: 1.5rem;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+  }
+
+.second-list {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    font: 14px;
+    padding-left: 3px;
+}
+
+.second-list  > li {
+    counter-increment: my-awesome-counter;
+    margin: 0.5rem;
+    background: rgb(212,213,219);
+    width: 300px;
+    height: 35px;
+    right: 20px;
+}
+
+.second-list > li::before {
+    content: counter(my-awesome-counter);
+    background: rgb(142,152,164);
+    width: 30px;
+    height: 30px;
+    border: 5px solid white;
+    display: inline-block;
+    line-height: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+}

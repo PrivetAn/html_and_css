@@ -1,0 +1,13 @@
+
+.block{
+    height: 1.5em;
+    width: 3em;
+    border: 5px solid black;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: auto;
+    background-color: rgb(240,128,128);
+    float: left;
+    margin: 1em;
+}
+

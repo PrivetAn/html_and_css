@@ -1,0 +1,26 @@
+#d1{
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    background: #407bbf;
+}
+
+.input-rectangle{
+    width: 80%; 
+    height: 60%;
+    border: 5px solid black;
+    background: #FA8072;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    top: 18%;
+}
+
+#d2{
+    background: #FA8072;
+}
+
+#d3{
+    background: #228B22;
+    text-align: center;
+}
