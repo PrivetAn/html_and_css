@@ -1,0 +1,77 @@
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+    font-size: 14px; 
+    background: white; 
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th{
+    font-weight: normal; 
+    color: white; 
+    border-bottom: 2px solid white; 
+    border-right: 2px solid white; 
+    padding: 10px 8px;
+    background: rgb(163,206,233); 
+}
+
+td{
+    color: white; 
+    padding: 9px 8px; 
+    transition: .3s linear;
+    border-bottom: 2px solid white; 
+    border-right: 2px solid white; 
+}
+
+tr:hover td {
+    color: #6699ff;
+}
+
+.first-td{
+    background: rgb(163,206,233); 
+}
+
+.usual-td{
+    background: rgb(211,231,244); 
+    color: black;
+}
+
+.th-second-table{
+    background: rgb(26,43,71);
+    border-bottom:2px solid rgb(8,140,137); 
+    border-right: 0px solid rgb(8,140,137); 
+}
+
+.first-td-second-table{
+    background: rgb(26,43,71);
+    border-bottom: 2px solid rgb(8,140,137); 
+    border-right: 2px solid rgb(8,140,137); 
+}
+
+.usual-td-second-table{
+    background: rgb(26,43,71);
+    color: white;
+    border-bottom: 2px solid rgb(8,140,137); 
+    border-right: 2px solid rgb(8,140,137); 
+}
+
+.cold-snacks{    
+    background: rgb(100,213,194);
+    color: white;
+}
+
+.th-cold-snacks{
+    background: white;
+    color: rgb(116,100,97);
+}
+
+.even-td-cold-snacks{
+    background: white;
+    color: rgb(116,100,97);
+}
+
+.odd-td-cold-snacks{
+    background: rgb(233,231,209);
+    color: rgb(116,100,97);
+}

@@ -1,0 +1,44 @@
+.shadow-btn{
+    position: relative;
+    padding: 10px 50px;
+    margin: 0 20px;
+    background: #f5b08f;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(252, 245, 232);
+    text-transform: lowercase;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: 0px;
+}
+
+.inner-btn{
+    display: flex;
+    align-items: center;
+}
+
+.shadow{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 100%;
+    height: 100%;
+    background: #362100;
+    z-index: -1;
+}
+
+body {
+    padding: 10px 50px;
+    background: linear-gradient( #afc4b5, transparent 3px), linear-gradient( 90deg, #afc4b5, transparent 3px);
+    background-size: 3px 3px;
+    background-position: center center;
+}
+
+.buttons{
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 20%;
+    width: 1000px;
+    height: 1000px;
+    margin: -50px 0 0 -100px;
+}
