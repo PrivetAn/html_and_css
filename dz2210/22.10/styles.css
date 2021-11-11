@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    background-color: rgb(250,250,250);
+    background-color: url(triangle-mosaic.png);
     /* position: fixed; */
     height: 100vh;
 }
